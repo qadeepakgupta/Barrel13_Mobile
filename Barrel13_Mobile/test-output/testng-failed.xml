@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.test.dashboardModule.TC_021_VerifyDashboardNavigateToSellersScreen">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="testDashboardNavigateToSellersScreen"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.test.dashboardModule.TC_021_VerifyDashboardNavigateToSellersScreen -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

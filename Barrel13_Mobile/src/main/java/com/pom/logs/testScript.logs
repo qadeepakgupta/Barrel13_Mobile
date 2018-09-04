@@ -1,0 +1,31 @@
+2018-09-04 17:04:40 INFO  TestBase:107 - Driver : io.appium.java_client.android.AndroidDriver, Capabilities: {app=C:\Deepak_Gupta\Workspace\Barrel13_Mobile\App\Barrel13.apk, appActivity=com.app.barrel13.SplashActivity, appPackage=com.app.barrel13, autoGrantPermissions=true, databaseEnabled=false, desired={app=C:\Deepak_Gupta\Workspace\Barrel13_Mobile\App\Barrel13.apk, appActivity=com.app.barrel13.SplashActivity, appPackage=com.app.barrel13, noReset=false, newCommandTimeout=30, platformVersion=7.0, autoGrantPermissions=true, platformName=Android, deviceName=Android Emulator}, deviceManufacturer=Genymotion, deviceModel=Google Nexus 5X - 7.0.0 - API 24 - 1080x1920, deviceName=192.168.201.101:5555, deviceScreenSize=1080x1920, deviceUDID=192.168.201.101:5555, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=30, noReset=false, platform=LINUX, platformName=Android, platformVersion=7.0, takesScreenshot=true, warnings={}, webStorageEnabled=false}
+2018-09-04 17:04:40 INFO  TestBase:111 - App launched successfully.
+2018-09-04 17:04:40 INFO  TC_021_VerifyDashboardNavigateToSellersScreen:21 - ======= starting testDashboardNavigateToSellersScreen() test========
+2018-09-04 17:04:43 INFO  HomePage:43 - login button is enabled and displayed.
+2018-09-04 17:04:44 INFO  HomePage:43 - clicked on Login button
+2018-09-04 17:04:50 INFO  LoginPage:53 - entered email is:- deepak.g@applify.co
+2018-09-04 17:04:56 INFO  LoginPage:53 - entered password is:- deepak123
+2018-09-04 17:05:00 INFO  LoginPage:53 - clicked on login button
+2018-09-04 17:06:37 ERROR TC_021_VerifyDashboardNavigateToSellersScreen:36 - Exception is: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-1KP87H6', ip: '192.168.201.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Deepak_Gupta\Workspace\B..., appActivity: com.app.barrel13.SplashActi..., appPackage: com.app.barrel13, autoGrantPermissions: true, databaseEnabled: false, desired: {app: C:\Deepak_Gupta\Workspace\B..., appActivity: com.app.barrel13.SplashActi..., appPackage: com.app.barrel13, autoGrantPermissions: true, deviceName: Android Emulator, newCommandTimeout: 30, noReset: false, platformName: Android, platformVersion: 7.0}, deviceManufacturer: Genymotion, deviceModel: Google Nexus 5X - 7.0.0 - A..., deviceName: 192.168.201.101:5555, deviceScreenSize: 1080x1920, deviceUDID: 192.168.201.101:5555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 30, noReset: false, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3ece8bd1-4f36-4751-b51a-c5be2e33265e
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("Recently Tracked Sellers").instance(0))}
+2018-09-04 17:06:37 ERROR TC_021_VerifyDashboardNavigateToSellersScreen:37 - 
+2018-09-04 17:06:37 ERROR TC_021_VerifyDashboardNavigateToSellersScreen:38 - ======= finished testDashboardNavigateToSellersScreen() test========
+2018-09-04 17:06:43 INFO  TestBase:409 - App closed successfully.
+2018-09-04 17:42:48 INFO  TestBase:107 - Driver : io.appium.java_client.android.AndroidDriver, Capabilities: {app=C:\Deepak_Gupta\Workspace\Barrel13_Mobile\App\Barrel13.apk, appActivity=com.app.barrel13.SplashActivity, appPackage=com.app.barrel13, autoGrantPermissions=true, databaseEnabled=false, desired={app=C:\Deepak_Gupta\Workspace\Barrel13_Mobile\App\Barrel13.apk, appActivity=com.app.barrel13.SplashActivity, appPackage=com.app.barrel13, noReset=false, newCommandTimeout=30, platformVersion=7.0, autoGrantPermissions=true, platformName=Android, deviceName=Android Emulator}, deviceManufacturer=Genymotion, deviceModel=Google Nexus 5X - 7.0.0 - API 24 - 1080x1920, deviceName=192.168.201.101:5555, deviceScreenSize=1080x1920, deviceUDID=192.168.201.101:5555, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, newCommandTimeout=30, noReset=false, platform=LINUX, platformName=Android, platformVersion=7.0, takesScreenshot=true, warnings={}, webStorageEnabled=false}
+2018-09-04 17:42:48 INFO  TestBase:111 - App launched successfully.
+2018-09-04 17:42:48 INFO  TC_021_VerifyDashboardNavigateToSellersScreen:21 - ======= starting testDashboardNavigateToSellersScreen() test========
+2018-09-04 17:42:50 INFO  HomePage:43 - login button is enabled and displayed.
+2018-09-04 17:42:51 INFO  HomePage:43 - clicked on Login button
+2018-09-04 17:42:57 INFO  LoginPage:53 - entered email is:- deepak.g@applify.co
+2018-09-04 17:43:03 INFO  LoginPage:53 - entered password is:- deepak123
+2018-09-04 17:43:08 INFO  LoginPage:53 - clicked on login button
+2018-09-04 17:43:27 INFO  DashboardPage:123 - clicked on sellers tracker button.
+2018-09-04 17:43:28 INFO  SellerTrackerPage:28 - Header Name is : DASHBOARD
+2018-09-04 17:43:36 INFO  TestBase:409 - App closed successfully.
